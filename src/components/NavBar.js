@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             My Post App
