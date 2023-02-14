@@ -95,7 +95,7 @@ function Home() {
           </button>
         </div>
       </section>
-      <section className="featured-post container">
+      <section className="featured-post container pt-2">
         <h3 className="text-center text-uppercase py-4">Featured Posts</h3>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
@@ -111,9 +111,11 @@ function Home() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="/" class="btn btn-primary">
-                  Read more
-                </a>
+                <div className="d-grid">
+                  <a href="/" class="btn btn-warning">
+                    Read more
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -130,9 +132,11 @@ function Home() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="/" class="btn btn-primary">
-                  Read more
-                </a>
+                <div className="d-grid">
+                  <a href="/" class="btn btn-warning">
+                    Read more
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -149,16 +153,83 @@ function Home() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="/" class="btn btn-primary">
-                  Read more
-                </a>
+                <div className="d-grid">
+                  <a href="/" class="btn btn-warning">
+                    Read more
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="latest-posts container">
-        <h3 className="text-center text-uppercase pt-4">Latest Posts</h3>
+      <section className="latest-posts container pt-2">
+        <h3 className="text-center text-uppercase py-4">Latest Posts</h3>
+        <div className="row">
+          <div className="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style={{ width: "18rem" }}>
+              <img
+                src="https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div className="d-grid">
+                  <a href="/" class="btn btn-warning">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style={{ width: "18rem" }}>
+              <img
+                src="https://images.unsplash.com/photo-1623298317883-6b70254edf31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div className="d-grid">
+                  <a href="/" class="btn btn-warning">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12">
+            <div class="card" style={{ width: "18rem" }}>
+              <img
+                src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div className="d-grid">
+                  <a href="/" class="btn btn-warning">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section className="our-portfolio container">
         <h3 className="text-center text-uppercase pt-4">PortFolio</h3>
