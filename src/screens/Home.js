@@ -99,20 +99,20 @@ function Home() {
         <h3 className="text-center text-uppercase py-4">Featured Posts</h3>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <div className="d-grid">
-                  <a href="/" class="btn btn-warning">
+                  <a href="/" className="btn btn-warning">
                     Read more
                   </a>
                 </div>
@@ -120,20 +120,20 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <div className="d-grid">
-                  <a href="/" class="btn btn-warning">
+                  <a href="/" className="btn btn-warning">
                     Read more
                   </a>
                 </div>
@@ -141,20 +141,20 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <div className="d-grid">
-                  <a href="/" class="btn btn-warning">
+                  <a href="/" className="btn btn-warning">
                     Read more
                   </a>
                 </div>
@@ -167,20 +167,20 @@ function Home() {
         <h3 className="text-center text-uppercase py-4">Latest Posts</h3>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <div className="d-grid">
-                  <a href="/" class="btn btn-warning">
+                  <a href="/" className="btn btn-warning">
                     Read more
                   </a>
                 </div>
@@ -188,20 +188,20 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1623298317883-6b70254edf31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <div className="d-grid">
-                  <a href="/" class="btn btn-warning">
+                  <a href="/" className="btn btn-warning">
                     Read more
                   </a>
                 </div>
@@ -209,20 +209,20 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12">
-            <div class="card" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
                 <div className="d-grid">
-                  <a href="/" class="btn btn-warning">
+                  <a href="/" className="btn btn-warning">
                     Read more
                   </a>
                 </div>
@@ -232,7 +232,47 @@ function Home() {
         </div>
       </section>
       <section className="our-portfolio container">
-        <h3 className="text-center text-uppercase pt-4">PortFolio</h3>
+        <h3 className="text-center text-uppercase py-4">PortFolio</h3>
+        <div className="container text-center">
+          <div className="row g-2">
+            <div className="col-6">
+              <div className="p-1 border bg-light">
+                <img
+                  src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt=""
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="p-1 border bg-light">
+                <img
+                  src="https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt=""
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="p-1 border bg-light">
+                <img
+                  src="https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt=""
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="p-1 border bg-light">
+                <img
+                  src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt=""
+                  width="100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
