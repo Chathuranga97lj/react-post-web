@@ -5,7 +5,7 @@ function NavBar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand fw-bold" to="/">
             My Post App
           </NavLink>
           <button
@@ -22,12 +22,16 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/about">
+                <NavLink
+                  className="nav-link fw-bold"
+                  aria-current="page"
+                  to="/about"
+                >
                   About us
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link fw-bold" to="/contact">
                   Contact
                 </NavLink>
               </li>

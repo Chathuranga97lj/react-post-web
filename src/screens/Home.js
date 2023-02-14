@@ -96,7 +96,9 @@ function Home() {
         </div>
       </section>
       <section className="featured-post container pt-2">
-        <h3 className="text-center text-uppercase py-4">Featured Posts</h3>
+        <h3 className="text-center text-uppercase py-4 fw-bold">
+          Featured Posts
+        </h3>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="card" style={{ width: "18rem" }}>
@@ -164,7 +166,9 @@ function Home() {
         </div>
       </section>
       <section className="latest-posts container pt-2">
-        <h3 className="text-center text-uppercase py-4">Latest Posts</h3>
+        <h3 className="text-center text-uppercase py-4 fw-bold">
+          Latest Posts
+        </h3>
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="card" style={{ width: "18rem" }}>
@@ -231,8 +235,18 @@ function Home() {
           </div>
         </div>
       </section>
+      <section
+        className="d-flex flex-column justify-content-center align-items-center container-fluid bg-primary bg-gradient mt-4"
+        style={{ minHeight: "180px" }}
+      >
+        <i className="fa-solid fa-house fs-1 text-warning"></i>
+        <h3 className="text-white text-uppercase pt-2">
+          We have wide variety of Posts
+        </h3>
+        <button className="btn btn-warning fw-bold">View All Posts</button>
+      </section>
       <section className="our-portfolio container">
-        <h3 className="text-center text-uppercase py-4">PortFolio</h3>
+        <h3 className="text-center text-uppercase py-4 fw-bold">PortFolio</h3>
         <div className="container text-center">
           <div className="row g-2">
             <div className="col-6">
