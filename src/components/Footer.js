@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div
       className="mt-5 container-fluid bg-primary bg-gradient text-white"
-      style={{ minHeight: "12rem" }}
+      style={{ minHeight: "28vh" }}
     >
       <div className="row pt-4 text-center">
         {/* create 3 section each of 4 colos for lg and md device but for small device create 1 section of 12 cols */}
