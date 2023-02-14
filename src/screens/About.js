@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="container">
-      <h3 className="text-center text-uppercase py-3">About Us</h3>
+      <h3 className="text-center text-uppercase py-3 fw-bold">About Us</h3>
       <div className="shadow p-3 mb-5 bg-body-tertiary rounded text-muted">
         <p>
           It is a long established fact that a reader will be distracted by the
