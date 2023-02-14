@@ -11,16 +11,16 @@ function Footer() {
         <div className="col-lg-4 col-md-4 col-sm-12 mb-2">
           <h5>Qick Links</h5>
           <div className="d-flex flex-column">
-            <a href="#" className="text-white p-1">
+            <a href="/about" className="text-white p-1">
               About us
             </a>
-            <a href="#" className="text-white p-1">
+            <a href="/" className="text-white p-1">
               Our Posts
             </a>
-            <a href="#" className="text-white p-1">
+            <a href="/contact" className="text-white p-1">
               Our Team
             </a>
-            <a href="#" className="text-white p-1">
+            <a href="/contact" className="text-white p-1">
               Contact us
             </a>
           </div>
